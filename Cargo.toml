@@ -1,0 +1,12 @@
+[package]
+name        = "timepiece"
+version     = "0.1.0"
+edition     = "2024"
+license     = "BlueOak-1.0.0"
+description = "Displays date and time in a terminal."
+repository  = "https://github.com/twittner/timepiece"
+
+[dependencies]
+anyhow    = "1.0.98"
+jiff      = "0.2.13"
+crossterm = "0.29.0"
